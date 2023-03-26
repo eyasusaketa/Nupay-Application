@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742319527637",
+    "project_id": "comeet-89622",
+    "storage_bucket": "comeet-89622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742319527637:android:f1891d740f241f8141b45c",
+        "android_client_info": {
+          "package_name": "com.example.nupay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742319527637-6kknnh6evrj2b6g3t30va5sg3l0j30f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUp6my46Erj16ZGMgJGo1l_LMdD9PvaaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742319527637-6kknnh6evrj2b6g3t30va5sg3l0j30f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

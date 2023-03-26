@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">nupay</string>
+    <string name="pay_comeet">Pay Comeet</string>
+    <string name="nupay">NuPay</string>
+    <string name="welcome_to_nupay">Welcome To NuPay</string>
+    <string name="todo">TODO</string>
+    <string name="buy_mobile_card">Buy Mobile Card</string>
+    <string name="logo">logo</string>
+    <string name="background">background</string>
+    <string name="copy_bank_acc_number">Copy Bank Acc.Number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="submit">submit</string>
+    <string name="please_enter_your_comeet_username_and_password_in_the_above_field">Please enter your comeet username and password in the above field</string>
+    <string name="enter_amount_in_birr">Enter amount in birr</string>
+    <string name="full_name">Full Name</string>
+    <string name="image">TODO</string>
+    <string name="please_enter_you_phone_number_correctly">Please enter you phone number correctly ......</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".bancktransfer">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="221dp"
+        android:layout_height="73dp"
+        android:textSize="20dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acno"
+        app:layout_constraintVertical_bias="0.189"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="480dp"
+        android:layout_height="86dp"
+        android:layout_margin="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/please_enter_you_phone_number_correctly"
+        android:textColor="#7E57C2"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="449dp"
+        android:layout_height="83dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#603a91"
+        android:textColorHint="#704aa1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="456dp"
+        android:layout_height="83dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#603a91"
+        android:textColorHint="#704aa1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="452dp"
+        android:layout_height="80dp"
+        android:autofillHints=""
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/enter_amount_in_birr"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="#603a91"
+        android:textColorHint="#704aa1"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="331dp"
+        android:layout_height="260dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/nupay" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="470dp"
+        android:layout_height="79dp"
+
+        android:layout_margin="0dp"
+        android:background="@drawable/spinner_container"
+        android:backgroundTintMode="src_over"
+        android:padding="0dp"
+        android:textColor="#603a91"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/acno"
+        android:layout_width="303dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="272dp"
+        android:text="@string/copy_bank_acc_number"
+        android:textColor="#603a91"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="82dp"
+        android:layout_height="89dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toEndOf="@+id/acno"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintVertical_bias="0.239"
+        app:srcCompat="@drawable/img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

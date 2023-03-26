@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/drawable/border.xml" value="0.2735" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/drawable/btn_background.xml" value="0.2735" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/drawable/spinner_container.xml" value="0.2615" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-land/activity_bancktransfer.xml" value="0.35885416666666664" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-land/activity_comeetpay.xml" value="0.3265625" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-land/activity_main.xml" value="0.35625" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-large/activity_bancktransfer.xml" value="0.35885416666666664" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-sw600dp/activity_bancktransfer.xml" value="0.1984375" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-sw600dp/activity_comeetpay.xml" value="0.33" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1984375" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout-xlarge/activity_bancktransfer.xml" value="0.1984375" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout/activity_bancktransfer.xml" value="0.22" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout/activity_comeetpay.xml" value="0.22" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.133" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.133" />
+        <entry key="..\:/FlutterInstalledAppp/nupay3/app/src/main/res/mipmap-anydpi-v26/icon.xml" value="0.133" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
